@@ -82,10 +82,10 @@ const MESSAGES = [
   { id: 'm3', name: 'Chantel Msiza',    avatar: 'https://i.pravatar.cc/80?img=16', preview: "Sounds good, let's do it",       online: false, category: 'general' },
   { id: 'm4', name: 'Juliet Makarey',   avatar: 'https://i.pravatar.cc/80?img=21', preview: 'Birthday tomorrow 🎉',           online: false, category: 'general' },
   { id: 'm5', name: 'Keylie Hadid',     avatar: 'https://i.pravatar.cc/80?img=28', preview: '5 new messages',                 online: true,  category: 'primary' },
-   { id: 'm5', name: 'mike jayson',       avatar: './felirbe-x7EkH3S6EjU-unsplash.jpg',  preview: 'Just woke up, catching up now', online: true,  category: 'primary' },
-    { id: 'm5', name: 'line williams',       avatar: './jean-philippe-delberghe-9XAnXWHu9_4-unsplash.jpg',  preview: 'Just woke up, catching up now', online: true,  category: 'primary' },
-     { id: 'm3', name: 'king charles',       avatar: './karl-solano-HB-8E5wdPeY-unsplash.jpg',  preview: 'Just woke up, catching up now', online: true,  category: 'primary' },
-      { id: 'm4', name: 'lana rose',       avatar: './mika-baumeister-WSpXkq7PXsc-unsplash.jpg',  preview: 'Just woke up, catching up now', online: true,  category: 'primary' },
+   { id: 'm5', name: 'mike jayson',       avatar: './felirbe-x7EkH3S6EjU-unsplash.jpg',  preview: 'it is a brand new', online: true,  category: 'primary' },
+    { id: 'm5', name: 'line williams',       avatar: './jean-philippe-delberghe-9XAnXWHu9_4-unsplash.jpg',  preview: 'catching up now', online: true,  category: 'primary' },
+     { id: 'm3', name: 'king charles',       avatar: './karl-solano-HB-8E5wdPeY-unsplash.jpg',  preview: 'mountain view', online: true,  category: 'primary' },
+      { id: 'm4', name: 'lana rose',       avatar: './mika-baumeister-WSpXkq7PXsc-unsplash.jpg',  preview: 'easy life', online: true,  category: 'primary' },
 ];
 
 const MESSAGE_REQUESTS = [
