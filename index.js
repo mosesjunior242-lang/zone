@@ -21,21 +21,21 @@ const FEEDS = [
     id: 'p1', name: 'Lana Rose', handle: '@lana.rose', avatar: 'https://i.pravatar.cc/120?img=9',
     place: 'Dubai', time: '15m ago',
     text: 'Golden hour hit different today. Sometimes you just have to stop and look up. ✨',
-    photo: 'https://picsum.photos/seed/lana/900/700',
+    photo: './tikva-J8EJtp8Hob4-unsplash.jpg',
     likes: 2323, comments: 277, liked: false,
   },
   {
     id: 'p2', name: 'Clara Dwayne', handle: '@clara.d', avatar: 'https://i.pravatar.cc/120?img=44',
     place: 'Miami', time: '2h ago',
     text: "Shipped a redesign this week that I'm actually proud of. Small, deliberate choices add up.",
-    photo: 'https://picsum.photos/seed/clara/900/700',
+    photo: './zoshua-colah-W0k-nkNoCiw-unsplash.jpg',
     likes: 1204, comments: 100, liked: false,
   },
   {
     id: 'p3', name: 'Rosalinda Clark', handle: '@rosa', avatar: 'https://i.pravatar.cc/120?img=32',
     place: 'New York', time: '50m ago',
     text: 'Coffee, notebook, and a plan for the quarter. Feeling good about where this is headed.',
-    photo: 'https://picsum.photos/seed/rosa/900/700',
+    photo: './mika-baumeister-WSpXkq7PXsc-unsplash.jpg',
     likes: 889, comments: 50, liked: false,
   },
   {
@@ -45,6 +45,35 @@ const FEEDS = [
     photo: 'https://picsum.photos/seed/diego/900/700',
     likes: 3410, comments: 214, liked: false,
   },
+  {
+    id: 'p4', name: 'rasna lin', handle: '@diego', avatar: 'https://i.pravatar.cc/120?img=52',
+    place: 'mountains of the everest', time: '24h ago',
+    text: 'Weekend prints from the studio 🖼️',
+    photo: './aniket-deole-M6XC789HLe8-unsplash.jpg',
+    likes: 3410, comments: 214, liked: false,
+  },
+  {
+    id: 'p4', name: 'queen anna', handle: '@diego', avatar: 'https://i.pravatar.cc/120?img=52',
+    place: 'dark money printer', time: '13h ago',
+    text: 'Weekend prints from the studio 🖼️',
+    photo: './clark-tibbs-oqStl2L5oxI-unsplash.jpg',
+    likes: 3410, comments: 214, liked: false,
+  },
+  {
+    id: 'p4', name: 'mr. daniel', handle: '@diego', avatar: 'https://i.pravatar.cc/120?img=52',
+    place: 'Nairobi', time: '4h ago',
+    text: 'Weekend prints from the studio 🖼️',
+    photo: './denys-nevozhai-7nrsVjvALnA-unsplash.jpg',
+    likes: 3410, comments: 214, liked: false,
+  },
+  {
+    id: 'p4', name: 'alison wang', handle: '@diego', avatar: 'https://i.pravatar.cc/120?img=52',
+    place: 'Beauty queen', time: '2s ago',
+    text: 'Weekend prints from the studio 🖼️',
+    photo: './aiony-haust-3TLl_97HNJo-unsplash.jpg',
+    likes: 3410, comments: 989, liked: true,
+  },
+
 ];
 
 const MESSAGES = [
@@ -53,6 +82,10 @@ const MESSAGES = [
   { id: 'm3', name: 'Chantel Msiza',    avatar: 'https://i.pravatar.cc/80?img=16', preview: "Sounds good, let's do it",       online: false, category: 'general' },
   { id: 'm4', name: 'Juliet Makarey',   avatar: 'https://i.pravatar.cc/80?img=21', preview: 'Birthday tomorrow 🎉',           online: false, category: 'general' },
   { id: 'm5', name: 'Keylie Hadid',     avatar: 'https://i.pravatar.cc/80?img=28', preview: '5 new messages',                 online: true,  category: 'primary' },
+   { id: 'm1', name: 'mike jayson',       avatar: './felirbe-x7EkH3S6EjU-unsplash.jpg',  preview: 'Just woke up, catching up now', online: true,  category: 'primary' },
+    { id: 'm1', name: 'line williams',       avatar: './jean-philippe-delberghe-9XAnXWHu9_4-unsplash.jpg',  preview: 'Just woke up, catching up now', online: true,  category: 'primary' },
+     { id: 'm1', name: 'king charles',       avatar: './karl-solano-HB-8E5wdPeY-unsplash.jpg',  preview: 'Just woke up, catching up now', online: true,  category: 'primary' },
+      { id: 'm1', name: 'lana rose',       avatar: './mika-baumeister-WSpXkq7PXsc-unsplash.jpg',  preview: 'Just woke up, catching up now', online: true,  category: 'primary' },
 ];
 
 const MESSAGE_REQUESTS = [
